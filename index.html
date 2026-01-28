@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VihaanBytes Official</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="image.png">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- HERO SECTION -->
+        <section id="hero" class="section">
+            <div class="logo-container">
+                <div class="glowing-circle">
+                    <img src="image.png" alt="VihaanBytes Official Logo" class="logo">
+                </div>
+                <div class="logo-glow"></div>
+            </div>
+            
+            <h1 class="site-title">VihaanBytes Official</h1>
+            
+            <div class="typing-container">
+                <div class="typing-text">
+                    <span id="typing-line-1"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="typing-subtext">
+                    <span class="neon-tag">Learn Coding From Scratch</span>
+                    <span class="neon-tag">HTML • CSS • JavaScript • Python</span>
+                    <span class="neon-tag">AI Tools & Future Tech</span>
+                </div>
+            </div>
+            
+            <div class="social-hero">
+                <a href="https://www.facebook.com/vihaan.verma.544688" target="_blank" class="glow-button">
+                    <i class="fab fa-facebook-f"></i> Connect on Facebook
+                </a>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <p>Scroll to Explore</p>
+            </div>
+        </section>
+        
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <h2 class="section-title">About <span class="neon-text">VihaanBytes</span></h2>
+            <div class="glow-divider"></div>
+            
+            <div class="futuristic-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <h3><i class="fas fa-code"></i> Tech Creator & Educator</h3>
+                    <p>Welcome to VihaanBytes Official, your gateway to mastering modern technology. I'm passionate about making coding accessible to everyone, from absolute beginners to aspiring developers.</p>
+                    
+                    <p>My mission is to teach the foundational technologies of the web - <span class="highlight">HTML, CSS, JavaScript, Python</span> - and integrate them with cutting-edge <span class="highlight">AI tools and future tech</span>. In today's rapidly evolving digital landscape, understanding both coding fundamentals and AI integration is essential.</p>
+                    
+                    <div class="tech-stack">
+                        <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                        <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="tech-item"><i class="fab fa-python"></i> Python</div>
+                        <div class="tech-item"><i class="fas fa-robot"></i> AI Tools</div>
+                        <div class="tech-item"><i class="fas fa-bolt"></i> Future Tech</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- TUTORIALS / CHAPTERS SECTION -->
+        <section id="tutorials" class="section">
+            <h2 class="section-title">Learning <span class="neon-text">Chapters</span></h2>
+            <div class="glow-divider"></div>
+            <p class="section-subtitle">Click on any chapter to expand and view detailed notes</p>
+            
+            <div class="chapters-container">
+                <!-- HTML Chapter -->
+                <div class="chapter-card" data-chapter="html">
+                    <div class="chapter-header">
+                        <div class="chapter-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML Fundamentals</h3>
+                        <div class="chapter-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="chapter-content">
+                        <div class="notes-content">
+                            <h4>Introduction to HTML</h4>
+                            <p>HTML (HyperText Markup Language) is the backbone of the web. It provides the structure for web pages.</p>
+                            
+                            <h5>Key Concepts:</h5>
+                            <ul>
+                                <li>HTML Elements and Tags</li>
+                                <li>Document Structure (DOCTYPE, html, head, body)</li>
+                                <li>Semantic HTML5 Elements</li>
+                                <li>Forms and Input Elements</li>
+                                <li>Multimedia Integration</li>
+                            </ul>
+                            
+                            <div class="code-block">
+                                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to VihaanBytes&lt;/h1&gt;
+    &lt;p&gt;Learning HTML is the first step in web development.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                            </div>
+                            
+                            <div class="notes-placeholder">
+                                <p><i class="fas fa-edit"></i> Space for adding more HTML notes...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CSS Chapter -->
+                <div class="chapter-card" data-chapter="css">
+                    <div class="chapter-header">
+                        <div class="chapter-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS Styling</h3>
+                        <div class="chapter-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="chapter-content">
+                        <div class="notes-content">
+                            <h4>CSS - Cascading Style Sheets</h4>
+                            <p>CSS brings life to HTML structures by adding colors, layouts, animations, and responsive design.</p>
+                            
+                            <h5>Key Concepts:</h5>
+                            <ul>
+                                <li>Selectors and Specificity</li>
+                                <li>Box Model and Flexbox</li>
+                                <li>CSS Grid Layout</li>
+                                <li>Responsive Design with Media Queries</li>
+                                <li>CSS Animations and Transitions</li>
+                            </ul>
+                            
+                            <div class="code-block">
+                                <pre><code>/* Example CSS Animation */
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 5px #0ff; }
+    50% { box-shadow: 0 0 20px #0ff, 0 0 30px #0ff; }
+}
+
+.futuristic-button {
+    background: transparent;
+    border: 2px solid #0ff;
+    color: #0ff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    animation: glow 2s infinite;
+    transition: all 0.3s ease;
+}</code></pre>
+                            </div>
+                            
+                            <div class="notes-placeholder">
+                                <p><i class="fas fa-edit"></i> Space for adding more CSS notes...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- JavaScript Chapter -->
+                <div class="chapter-card" data-chapter="javascript">
+                    <div class="chapter-header">
+                        <div class="chapter-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript Programming</h3>
+                        <div class="chapter-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="chapter-content">
+                        <div class="notes-content">
+                            <h4>JavaScript - The Language of the Web</h4>
+                            <p>JavaScript adds interactivity, dynamic content, and logic to web pages.</p>
+                            
+                            <h5>Key Concepts:</h5>
+                            <ul>
+                                <li>Variables, Data Types, and Operators</li>
+                                <li>Functions and Scope</li>
+                                <li>DOM Manipulation</li>
+                                <li>Event Handling</li>
+                                <li>ES6+ Features (Arrow Functions, Promises, etc.)</li>
+                            </ul>
+                            
+                            <div class="code-block">
+                                <pre><code>// Example JavaScript for toggling chapters
+document.querySelectorAll('.chapter-header').forEach(header => {
+    header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const isOpen = content.style.maxHeight;
+        
+        // Close all other chapters
+        document.querySelectorAll('.chapter-content').forEach(item => {
+            item.style.maxHeight = null;
+        });
+        
+        // Toggle current chapter
+        content.style.maxHeight = isOpen ? null : content.scrollHeight + 'px';
+    });
+});</code></pre>
+                            </div>
+                            
+                            <div class="notes-placeholder">
+                                <p><i class="fas fa-edit"></i> Space for adding more JavaScript notes...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Python Chapter -->
+                <div class="chapter-card" data-chapter="python">
+                    <div class="chapter-header">
+                        <div class="chapter-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python Development</h3>
+                        <div class="chapter-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="chapter-content">
+                        <div class="notes-content">
+                            <h4>Python - Versatile Programming Language</h4>
+                            <p>Python is known for its simplicity and readability, making it perfect for beginners and experts alike.</p>
+                            
+                            <h5>Key Concepts:</h5>
+                            <ul>
+                                <li>Python Syntax and Basic Structures</li>
+                                <li>Functions and Modules</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>File Handling and Libraries</li>
+                                <li>Web Development with Flask/Django</li>
+                            </ul>
+                            
+                            <div class="code-block">
+                                <pre><code># Simple Python function example
+def calculate_fibonacci(n):
+    """Calculate Fibonacci sequence up to n terms"""
+    sequence = [0, 1]
+    
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    elif n == 2:
+        return sequence
+    
+    for i in range(2, n):
+        next_term = sequence[i-1] + sequence[i-2]
+        sequence.append(next_term)
+    
+    return sequence
+
+# Get first 10 Fibonacci numbers
+fib_sequence = calculate_fibonacci(10)
+print(fib_sequence)</code></pre>
+                            </div>
+                            
+                            <div class="notes-placeholder">
+                                <p><i class="fas fa-edit"></i> Space for adding more Python notes...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI Tools Chapter -->
+                <div class="chapter-card" data-chapter="ai">
+                    <div class="chapter-header">
+                        <div class="chapter-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Tools & Future Tech</h3>
+                        <div class="chapter-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="chapter-content">
+                        <div class="notes-content">
+                            <h4>Artificial Intelligence & Emerging Technologies</h4>
+                            <p>AI is transforming how we interact with technology. This chapter covers AI tools and futuristic tech concepts.</p>
+                            
+                            <h5>Key Concepts:</h5>
+                            <ul>
+                                <li>Introduction to Machine Learning</li>
+                                <li>AI APIs and Tools (OpenAI, TensorFlow, etc.)</li>
+                                <li>Natural Language Processing</li>
+                                <li>Computer Vision Basics</li>
+                                <li>Ethical AI and Future Implications</li>
+                            </ul>
+                            
+                            <div class="code-block">
+                                <pre><code>// Example: AI-powered chatbot response logic
+function generateAIResponse(userInput) {
+    const responses = {
+        greeting: "Hello! I'm VihaanBytes AI Assistant. How can I help you learn coding today?",
+        help: "I can help you with HTML, CSS, JavaScript, Python, and AI concepts. What would you like to learn?",
+        motivation: "Remember: Every expert was once a beginner. Keep coding consistently!",
+        future: "The future belongs to those who learn, adapt, and create with technology."
+    };
+    
+    // Simple keyword matching (in real AI, you'd use NLP)
+    if (userInput.toLowerCase().includes('hello') || userInput.toLowerCase().includes('hi')) {
+        return responses.greeting;
+    } else if (userInput.toLowerCase().includes('help')) {
+        return responses.help;
+    } else if (userInput.toLowerCase().includes('motiv') || userInput.toLowerCase().includes('stuck')) {
+        return responses.motivation;
+    } else {
+        return responses.future;
+    }
+}</code></pre>
+                            </div>
+                            
+                            <div class="notes-placeholder">
+                                <p><i class="fas fa-edit"></i> Space for adding more AI notes...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- AI BOT SECTION -->
+        <section id="ai-bot" class="section">
+            <h2 class="section-title">AI <span class="neon-text">Assistant</span></h2>
+            <div class="glow-divider"></div>
+            
+            <div class="chatbot-container">
+                <div class="chat-header">
+                    <div class="chatbot-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chatbot-info">
+                        <h3>VihaanBytes AI Assistant</h3>
+                        <p>Ask me about coding, tech, or motivation!</p>
+                    </div>
+                    <div class="chat-status">
+                        <div class="status-indicator"></div>
+                        <span>Online</span>
+                    </div>
+                </div>
+                
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            Hello! I'm your VihaanBytes AI Assistant. I can help answer questions about coding, technology, and learning resources. What would you like to know?
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+                
+                <div class="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="Type your question here...">
+                    <button id="send-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                
+                <div class="chat-suggestions">
+                    <button class="suggestion-btn">What is HTML?</button>
+                    <button class="suggestion-btn">How to start coding?</button>
+                    <button class="suggestion-btn">Future of AI</button>
+                    <button class="suggestion-btn">Motivational quote</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CONTACT / SOCIAL SECTION -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Connect <span class="neon-text">With Me</span></h2>
+            <div class="glow-divider"></div>
+            
+            <div class="contact-content">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h3>Facebook Profile</h3>
+                    <p>Connect with me on Facebook for updates, tutorials, and tech discussions.</p>
+                    <a href="https://www.facebook.com/vihaan.verma.544688" target="_blank" class="glow-button">
+                        <i class="fab fa-facebook-f"></i> Visit Facebook
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Learning Philosophy</h3>
+                    <p>I believe in hands-on, project-based learning. The best way to learn coding is by building real projects.</p>
+                    <div class="learning-principles">
+                        <span><i class="fas fa-check-circle"></i> Start Simple</span>
+                        <span><i class="fas fa-check-circle"></i> Code Daily</span>
+                        <span><i class="fas fa-check-circle"></i> Build Projects</span>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Future Vision</h3>
+                    <p>Democratizing tech education by making coding and AI knowledge accessible to everyone, everywhere.</p>
+                    <div class="vision-stats">
+                        <div class="stat">
+                            <div class="stat-value">4+</div>
+                            <div class="stat-label">Tech Languages</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">AI</div>
+                            <div class="stat-label">Integrated</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">∞</div>
+                            <div class="stat-label">Possibilities</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-circle">
+                        <img src="image.png" alt="VihaanBytes Official Logo" class="footer-logo-img">
+                    </div>
+                    <h3>VihaanBytes Official</h3>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#tutorials">Chapters</a>
+                    <a href="#ai-bot">AI Assistant</a>
+                    <a href="#contact">Connect</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/vihaan.verma.544688" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>© 2026 VihaanBytes Official. All rights reserved.</p>
+                    <p class="footer-tagline">Empowering the next generation of developers</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
