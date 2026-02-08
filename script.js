@@ -1,8 +1,8 @@
-// VihaanBytes Official Website - JavaScript
+// Intellixor Official Website - JavaScript
 // This file contains all interactive functionality
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('VihaanBytes Official website loaded successfully!');
+    console.log('Intellixor Official website loaded successfully!');
     
     // Initialize all components
     initTypingAnimation();
@@ -20,7 +20,7 @@ function initTypingAnimation() {
         "Learn Coding From Scratch",
         "HTML • CSS • JavaScript • Python",
         "AI Tools & Future Tech",
-        "Welcome to VihaanBytes Official"
+        "Welcome to Intellixor Official"
     ];
     
     let lineIndex = 0;
@@ -230,7 +230,7 @@ function initChatbot() {
     // AI Responses database
     const aiResponses = {
         greetings: [
-            "Hello! I'm VihaanBytes AI Assistant. How can I help you learn coding today?",
+            "Hello! I'm Intellixor AI Assistant. How can I help you learn coding today?",
             "Hi there! Ready to dive into the world of coding and technology?",
             "Welcome! I'm here to help you with HTML, CSS, JavaScript, Python, and AI concepts."
         ],

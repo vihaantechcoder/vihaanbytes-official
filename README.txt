@@ -1,8 +1,8 @@
-VIHAANBYTES OFFICIAL WEBSITE
+Intellixor OFFICIAL WEBSITE
 =============================
 
 This is a futuristic, long-scroll, fully responsive personal brand website
-for "VihaanBytes Official" - a tech creator platform.
+for "Intellixor Official" - a tech creator platform.
 
 WEBSITE STRUCTURE:
 1. index.html - Main HTML structure
@@ -12,7 +12,7 @@ WEBSITE STRUCTURE:
 
 IMPORTANT:
 - Place your logo/image file as "image.png" in the same folder
-- The website name is always "VihaanBytes Official"
+- The website name is always "Intellixor Official"
 - Facebook link is set to: https://www.facebook.com/vihaan.verma.544688
 
 FEATURES IMPLEMENTED:
@@ -78,4 +78,4 @@ CUSTOMIZATION:
 - Change social links in HTML
 
 ENJOY YOUR NEXT-GEN TECH CREATOR WEBSITE!
-© 2026 VihaanBytes Official
+© 2026 Intellixor Official
